@@ -74,10 +74,10 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
-  - (
-  - )
   - {t: '-', s: _}
   - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '~'
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
@@ -87,8 +87,8 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - (
+  - )
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(305,100,50)
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
