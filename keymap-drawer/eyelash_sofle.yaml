@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '1'
   - '2'
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '-', s: _}
   '1':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
