@@ -78,11 +78,11 @@
 
         layer_1 {
             bindings = <
-&kp F1    &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &kp C_BRI_INC         &kp TILDE  &trans          &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
-&kp F7    &kp F8  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_BRIGHTNESS_DEC  &trans     &kp LEFT_BRACE  &kp UP      &kp RIGHT_BRACE       &kp MINUS              &kp EQUAL
-&kp CLCK  &trans  &trans  &trans   &trans   &trans     &kp LG(MINUS)         &trans     &kp LEFT        &kp DOWN    &kp RIGHT             &kp LBKT               &kp RBKT
-&trans    &trans  &trans  &trans   &trans   &trans     &kp LG(EQUAL)         &trans     &accent_ae      &accent_oe  &accent_ue            &trans                 &trans
-&trans    &trans  &trans  &trans   &trans   &trans     &trans                &trans     &trans          &trans      &trans                &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &kp C_BRI_INC         &kp TILDE  &trans          &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_BRIGHTNESS_DEC  &trans     &kp LEFT_BRACE  &kp UP      &kp RIGHT_BRACE       &kp MINUS              &kp EQUAL
+&kp CLCK   &trans  &trans  &trans   &trans   &trans     &kp LG(MINUS)         &trans     &kp LEFT        &kp DOWN    &kp RIGHT             &kp LBKT               &kp RBKT
+&kp ENTER  &trans  &trans  &trans   &trans   &trans     &kp LG(EQUAL)         &trans     &accent_ae      &accent_oe  &accent_ue            &trans                 &trans
+&trans     &trans  &trans  &trans   &trans   &trans     &trans                &trans     &trans          &trans      &trans                &trans
             >;
         };
 
