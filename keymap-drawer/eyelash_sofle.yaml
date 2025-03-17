@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - '2'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -73,18 +73,18 @@ layers:
   - F5
   - F6
   - BRI INC
+  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - (
+  - )
+  - '?'
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
@@ -92,7 +92,7 @@ layers:
   - '}'
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - CLCK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -114,8 +114,8 @@ layers:
   - {t: Gui+=, s: Gui++}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&accent_ae'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&accent_oe'
+  - '&accent_ue'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -170,8 +170,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - '&bl BL_DEC'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_INC'
   - '&bl BL_CYCLE'
   - '&bl BL_SET 10'
@@ -193,5 +193,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
