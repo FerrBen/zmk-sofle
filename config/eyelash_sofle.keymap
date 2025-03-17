@@ -41,7 +41,7 @@
         accent_ae: accent_ae {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>;
+            bindings = <&kp LC(U)>, <&macro_press>, <&kp A>;
 
             label = "ACCENT_AE";
         };
@@ -64,22 +64,24 @@
 
         layer_1 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &trans  &kp F7  &kp F8    &kp F9    &kp F10    &kp F11    &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp UP    &trans     &kp MINUS  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LBKT   &kp RBKT
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp C_BRI_INC         &kp F7  &kp F8      &kp F9    &kp F10    &kp F11    &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &kp C_BRIGHTNESS_DEC  &trans  &trans      &kp UP    &trans     &kp MINUS  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(MINUS)         &trans  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT   &kp RBKT
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(PLUS)          &trans  &accent_ae  &trans    &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                &trans  &trans      &trans    &trans     &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &bl BL_OFF    &bl BL_ON     &bl BL_CYCLE  &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans         &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans         &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bl BL_TOG      &bl BL_DEC    &bl BL_INC    &bl BL_CYCLE  &bl BL_SET 10  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans         &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
     };
 };
