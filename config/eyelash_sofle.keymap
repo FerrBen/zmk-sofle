@@ -66,11 +66,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp N1     &kp N2    &kp N3  &kp N4     &kp N5           &kp UP_ARROW    &kp N6     &kp N7     &kp N8     &kp N9   &kp N0      &kp MINUS
-&kp TAB         &kp Q      &kp W     &kp E   &kp R      &kp T            &kp DOWN_ARROW  &kp Y      &kp U      &kp I      &kp O    &kp P       &kp BSLH
-&kp LGUI        &kp A      &kp S     &kp D   &kp F      &kp G            &kp LEFT_ARROW  &kp H      &kp J      &kp K      &kp L    &kp SEMI    &kp SQT
-&kp LEFT_SHIFT  &kp Z      &kp X     &kp C   &kp V      &kp B            &kp RIGHT       &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH    &kp ENTER
-&kp C_MUTE      &kp LCTRL  &kp LALT  &mo 1   &kp LSHFT  &kp BACKSPACE    &kp ENTER       &kp SPACE  &kp ENTER  &mo 1      &mo 2    &kp DELETE
+&kp ESC     &kp N1     &kp N2    &kp N3  &kp N4     &kp N5           &kp UP_ARROW    &kp N6     &kp N7     &kp N8     &kp N9   &kp N0      &kp MINUS
+&kp TAB     &kp Q      &kp W     &kp E   &kp R      &kp T            &kp DOWN_ARROW  &kp Y      &kp U      &kp I      &kp O    &kp P       &kp BSLH
+&kp LGUI    &kp A      &kp S     &kp D   &kp F      &kp G            &kp LEFT_ARROW  &kp H      &kp J      &kp K      &kp L    &kp SEMI    &kp SQT
+&tog 1      &kp Z      &kp X     &kp C   &kp V      &kp B            &kp RIGHT       &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH    &kp ENTER
+&kp C_MUTE  &kp LCTRL  &kp LALT  &mo 1   &kp LSHFT  &kp BACKSPACE    &kp ENTER       &kp SPACE  &kp ENTER  &mo 1      &mo 2    &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -78,11 +78,11 @@
 
         layer_1 {
             bindings = <
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &kp C_BRI_INC         &kp TILDE  &trans          &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_BRIGHTNESS_DEC  &trans     &kp LEFT_BRACE  &kp UP      &kp RIGHT_BRACE       &kp MINUS              &kp EQUAL
-&kp CLCK   &trans  &trans  &trans   &trans   &trans     &kp LG(MINUS)         &trans     &kp LEFT        &kp DOWN    &kp RIGHT             &kp LBKT               &kp RBKT
-&kp ENTER  &trans  &trans  &trans   &trans   &trans     &kp LG(EQUAL)         &trans     &accent_ae      &accent_oe  &accent_ue            &kp QUESTION           &kp EXCL
-&trans     &trans  &trans  &trans   &trans   &trans     &trans                &trans     &trans          &trans      &trans                &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &kp C_BRI_INC         &kp TILDE       &trans          &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12    &kp C_BRIGHTNESS_DEC  &kp TILDE       &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                &kp MINUS              &kp EQUAL
+&kp CLCK   &trans  &trans  &trans   &trans   &trans     &kp LG(MINUS)         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT             &kp LBKT               &kp RBKT
+&kp ENTER  &trans  &trans  &trans   &trans   &trans     &kp LG(EQUAL)         &trans          &accent_ae      &accent_oe       &accent_ue            &kp QUESTION           &kp EXCL
+&trans     &trans  &trans  &trans   &trans   &trans     &trans                &trans          &trans          &trans           &trans                &trans
             >;
         };
 
