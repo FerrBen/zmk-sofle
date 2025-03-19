@@ -55,8 +55,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - '2'
-  - $$mdi:apple-keyboard-option$$
   - '1'
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -120,8 +120,8 @@ layers:
   - '!'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
