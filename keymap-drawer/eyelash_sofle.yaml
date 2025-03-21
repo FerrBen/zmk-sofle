@@ -74,8 +74,8 @@ layers:
   - F5
   - $$mdi:brightness-5$$
   - F6
-  - F7
-  - F8
+  - '{'
+  - '}'
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -86,7 +86,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - $$mdi:brightness-7$$
-  - F11
+  - '~'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '-', s: _}
