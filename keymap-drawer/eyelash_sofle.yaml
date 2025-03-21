@@ -114,8 +114,8 @@ layers:
   - {t: Gui+=, s: Gui++}
   - RGB BRI
   - RGB BRD
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - <
+  - '>'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:volume-off$$
