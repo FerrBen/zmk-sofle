@@ -66,9 +66,9 @@
 
         layer_1 {
             bindings = <
-&kp CAPS    &kp F1                             &kp F2                             &kp F3           &kp F4           &kp F5             &kp C_BRIGHTNESS_INC  &kp F6           &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp CAPS    &kp F1                             &kp F2                             &kp F3           &kp F4           &kp F5             &kp C_BRIGHTNESS_INC  &kp AT           &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
 &kp TILDE   &kp GRAVE                          &mkp LCLK                          &mkp MCLK        &mkp RCLK        &mkp MB4           &kp C_BRIGHTNESS_DEC  &kp TILDE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp MINUS              &kp EQUAL
-&trans      &kp TILDE                          &trans                             &mo 3            &kp LEFT_ALT     &mkp MB5           &kp LG(MINUS)         &kp LEFT         &kp DOWN          &kp UP             &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
+&trans      &kp TILDE                          &trans                             &mo 3            &mo 4            &mkp MB5           &kp LG(MINUS)         &kp LEFT         &kp DOWN          &kp UP             &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
 &trans      &rgb_ug RGB_OFF                    &rgb_ug RGB_ON                     &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &kp LG(EQUAL)         &rgb_ug RGB_BRI  &rgb_ug RGB_BRD   &kp LESS_THAN      &kp GREATER_THAN      &kp MINUS              &kp EQUAL
 &kp C_MUTE  &rgb_ug RGB_COLOR_HSB(305,100,50)  &rgb_ug RGB_COLOR_HSB(186,100,51)  &trans           &trans           &trans             &mkp LCLK             &kp LG(C)        &kp LG(V)         &trans             &trans                &trans
             >;
@@ -96,6 +96,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)  &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &kp MINUS   &kp EQUAL   &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans      &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans      &trans      &trans
             >;
         };
     };
