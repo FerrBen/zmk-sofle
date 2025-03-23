@@ -79,25 +79,25 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - <
   - {t: '[', s: '{'}
   - '{'
   - (
-  - {t: '-', s: _}
   - $$mdi:brightness-7$$
-  - {t: '=', s: +}
   - )
   - '}'
   - {t: ']', s: '}'}
   - '>'
-  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  - '|'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '-', s: _}
   - Switch
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - {t: Gui+-, s: Gui+_}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -128,8 +128,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - _
+  - +
   '2':
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
