@@ -92,11 +92,11 @@
 
         layer_3 {
             bindings = <
-&ext_power EP_ON   &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N1)       &kp LA(N2)       &kp LA(N3)       &kp LA(N4)       &kp LA(N5)       &kp LA(N6)
-&ext_power EP_OFF  &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N7)       &kp LA(N8)       &kp LA(N9)       &kp LA(N0)       &trans           &trans
-&trans             &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_ON
-&trans             &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_OFF
-&trans             &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans           &trans           &trans           &trans
+&ext_power EP_ON   &trans  &trans  &trans  &trans     &trans    &trans  &kp LA(N1)       &kp LA(N2)       &kp LA(N3)       &kp LA(N4)       &kp LA(N5)       &kp LA(N6)
+&ext_power EP_OFF  &trans  &trans  &trans  &trans     &trans    &trans  &kp LA(N7)       &kp LA(N8)       &kp LA(N9)       &kp LA(N0)       &trans           &trans
+&trans             &trans  &trans  &trans  &kp LC(F)  &trans    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_ON
+&trans             &trans  &trans  &trans  &trans     &trans    &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_OFF
+&trans             &trans  &trans  &trans  &trans     &trans    &trans  &trans           &trans           &trans           &trans           &trans
             >;
 
             label = "Switch";
