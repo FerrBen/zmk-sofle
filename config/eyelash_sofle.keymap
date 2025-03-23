@@ -62,19 +62,19 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "Base";
         };
 
         layer_1 {
             bindings = <
-&kp CAPS    &kp        &kp               &kp             &kp                   &kp          &kp C_BRIGHTNESS_INC  &kp AT         &trans                 &trans           &trans             &trans     &kp BACKSPACE
-&kp TILDE   &kp GRAVE  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp MINUS    &kp C_BRIGHTNESS_DEC  &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans     &trans
-&kp         &kp TILDE  &kp               &kp MINUS       &mo 4                 &kp EQUAL    &kp LG(MINUS)         &kp LEFT       &kp DOWN               &kp UP           &kp RIGHT          &kp COLON  &kp DOUBLE_QUOTES
-&kp         &kp        &kp               &kp             &kp                   &kp          &kp LG(EQUAL)         &kp            &kp TILDE              &kp LESS_THAN    &kp GREATER_THAN   &trans     &trans
-&kp C_MUTE  &kp        &kp               &kp             &kp                   &kp          &mkp LCLK             &kp BACKSPACE  &mo 3                  &kp              &kp                &kp
+&kp CAPS    &none          &none             &none           &none                 &none        &kp C_BRIGHTNESS_INC  &kp AT         &none                  &none            &none              &none             &kp BACKSPACE
+&kp TILDE   &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp MINUS    &kp C_BRIGHTNESS_DEC  &kp EQUAL      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp GRAVE
+&none       &kp TILDE      &kp EQUAL         &kp MINUS       &mo 3                 &none        &kp LG(MINUS)         &kp LEFT       &kp DOWN               &kp UP           &kp RIGHT          &kp COLON         &kp DOUBLE_QUOTES
+&none       &none          &none             &none           &none                 &none        &kp LG(EQUAL)         &none          &kp TILDE              &kp LESS_THAN    &kp GREATER_THAN   &none             &none
+&kp C_MUTE  &none          &none             &none           &none                 &none        &mkp LCLK             &kp BACKSPACE  &kp BACKSPACE          &none            &none              &none
             >;
 
-            display-name = "layer1";
+            display-name = "Symb";
             sensor-bindings = <&inc_dec_kp LG(EQUAL) LG(MINUS)>;
         };
 
@@ -82,8 +82,8 @@
             bindings = <
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F1            &kp F2             &kp F3      &kp F4     &kp F5       &kp F6
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp F7            &kp F8             &kp F9      &kp F10    &kp F11      &kp F12
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &ext_power EP_ON  &ext_power EP_OFF  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans            &trans             &sys_reset  &soft_off  &bootloader  &kp RIGHT_CONTROL
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &ext_power EP_ON  &ext_power EP_OFF  &trans      &trans     &trans       &trans
+&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans            &trans             &sys_reset  &soft_off  &bootloader  &trans
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans            &trans             &trans      &trans     &trans
             >;
 
@@ -92,22 +92,14 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &ext_power EP_ON  &ext_power EP_OFF
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans           &trans           &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans           &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans           &trans           &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans           &trans           &trans           &trans
+&ext_power EP_ON   &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N1)       &kp LA(N2)       &kp LA(N3)       &kp LA(N4)       &kp LA(N5)       &kp LA(N6)
+&ext_power EP_OFF  &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N7)       &kp LA(N8)       &kp LA(N9)       &kp LA(N0)       &trans           &trans
+&trans             &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_ON
+&trans             &trans  &trans  &trans  &trans  &trans    &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_OFF
+&trans             &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans           &trans           &trans           &trans
             >;
-        };
 
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)  &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &kp MINUS   &kp EQUAL   &trans      &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans      &trans      &trans      &trans
-            >;
+            label = "Switch";
         };
     };
 };
