@@ -47,6 +47,13 @@
 
             label = "ACCENT_AE";
         };
+
+        pause_yt: pause_yt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(NUMBER_1) &kp LA(K) &kp SPACE>;
+            label = "PAUSE_YT";
+        };
     };
 
     keymap {
@@ -57,7 +64,7 @@
 &kp ESC           &kp N1    &kp N2        &kp N3            &kp N4  &kp N5            &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp BACKSPACE
 &kp TAB           &kp Q     &kp W         &kp E             &kp R   &kp T             &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BACKSLASH
 &kp LEFT_COMMAND  &kp A     &kp S         &kp D             &kp F   &kp G             &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp APOS
-&kp CAPSLOCK      &kp Z     &kp X         &kp C             &kp V   &kp B             &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RIGHT_SHIFT
+&kp LEFT_ALT      &kp Z     &kp X         &kp C             &kp V   &kp B             &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RIGHT_SHIFT
 &kp C_MUTE        &kp CLCK  &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 1   &kp LEFT_SHIFT    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp MINUS  &kp EQUAL
             >;
 
@@ -96,7 +103,7 @@
 &ext_power EP_OFF  &trans  &trans  &trans  &trans     &trans    &trans  &kp LA(N7)       &kp LA(N8)       &kp LA(N9)       &kp LA(N0)       &trans           &trans
 &trans             &trans  &trans  &trans  &kp LC(F)  &trans    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_ON
 &trans             &trans  &trans  &trans  &trans     &trans    &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_OFF
-&trans             &trans  &trans  &trans  &trans     &trans    &trans  &trans           &trans           &trans           &trans           &trans
+&trans             &trans  &trans  &trans  &trans     &trans    &trans  &pause_yt        &trans           &trans           &trans           &trans
             >;
 
             label = "Switch";
