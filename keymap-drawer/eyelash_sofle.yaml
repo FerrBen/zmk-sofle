@@ -93,7 +93,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '|'
   - Switch
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&accent_ae'
   - <
   - {t: '[', s: '{'}
   - '{'
@@ -116,8 +116,8 @@ layers:
   - {t: '''', s: '"'}
   - <
   - '>'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&accent_oe'
+  - '&accent_ue'
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&pause_yt'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
