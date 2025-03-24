@@ -43,16 +43,29 @@
         accent_ae: accent_ae {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>;
-
+            bindings = <&kp LA(U) &kp A>;
             label = "ACCENT_AE";
         };
 
         pause_yt: pause_yt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(NUMBER_1) &kp LA(K) &kp SPACE>;
+            bindings = <&kp LA(NUMBER_1) &kp LA(K) &kp SPACE &kp LA(TAB)>;
             label = "PAUSE_YT";
+        };
+
+        accent_oe: accent_oe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(U) &kp O>;
+            label = "ACCENT_OE";
+        };
+
+        accent_ue: accent_ue {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(U) &kp U>;
+            label = "ACCENT_UE";
         };
     };
 
@@ -76,9 +89,9 @@
             bindings = <
 &kp CAPS    &kp EXCLAMATION  &kp AT_SIGN    &kp HASH          &kp DOLLAR         &kp PERCENT             &kp C_BRIGHTNESS_INC  &kp CARET              &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
 &none       &none            &kp COLON      &kp PLUS          &kp UNDER          &kp GRAVE               &kp C_BRIGHTNESS_DEC  &kp TILDE              &kp MINUS         &kp EQUAL          &kp DOUBLE_QUOTES     &none                  &kp PIPE
-&mo 3       &none            &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS    &kp LG(MINUS)         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp GREATER_THAN      &kp COLON              &kp DOUBLE_QUOTES
-&none       &none            &none          &none             &kp DOUBLE_QUOTES  &kp LESS_THAN           &kp LG(EQUAL)         &kp GREATER_THAN       &kp SINGLE_QUOTE  &kp LESS_THAN      &kp GREATER_THAN      &none                  &none
-&kp C_MUTE  &none            &none          &none             &none              &none                   &mkp LCLK             &none                  &kp BACKSPACE     &none              &kp UNDER             &kp PLUS
+&mo 3       &accent_ae       &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS    &kp LG(MINUS)         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp GREATER_THAN      &kp COLON              &kp DOUBLE_QUOTES
+&none       &none            &none          &none             &kp DOUBLE_QUOTES  &kp LESS_THAN           &kp LG(EQUAL)         &kp GREATER_THAN       &kp SINGLE_QUOTE  &kp LESS_THAN      &kp GREATER_THAN      &accent_oe             &accent_ue
+&kp C_MUTE  &none            &none          &none             &none              &none                   &mkp LCLK             &pause_yt              &kp BACKSPACE     &none              &kp UNDER             &kp PLUS
             >;
 
             display-name = "Symb";
