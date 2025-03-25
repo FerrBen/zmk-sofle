@@ -50,7 +50,7 @@
         pause_yt: pause_yt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(NUMBER_1) &kp LA(K) &kp SPACE &kp LA(TAB)>;
+            bindings = <&kp LA(NUMBER_6) &kp LA(K) &kp SPACE &kp LA(TAB)>;
             label = "PAUSE_YT";
         };
 
