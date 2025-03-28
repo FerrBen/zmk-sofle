@@ -91,7 +91,7 @@
 &none       &kp LC(Q)        &accent_ae   &accent_oe  &accent_ue  &none          &kp C_BRIGHTNESS_DEC  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN          &kp GREATER_THAN       &kp PIPE
 &mo 3       &none            &kp LC(S)    &none       &kp LC(F)   &none          &kp LG(MINUS)         &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_PARENTHESIS  &kp COLON              &kp DOUBLE_QUOTES
 &none       &none            &none        &none       &none       &none          &kp LG(EQUAL)         &kp EQUAL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE              &none                  &none
-&kp C_MUTE  &none            &none        &none       &none       &none          &kp LC(F)             &kp COLON  &none                 &none                  &kp UNDER              &kp PLUS
+&kp C_MUTE  &none            &none        &none       &none       &none          &kp LC(F)             &kp COLON  &kp LC(Y)             &none                  &kp UNDER              &kp PLUS
             >;
 
             display-name = "Symb";
