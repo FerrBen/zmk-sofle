@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - Symb
+  - $$mdi:apple-keyboard-command$$
   - A
   - S
   - D
@@ -52,17 +52,17 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:volume-off$$
   - CLCK
-  - $$mdi:apple-keyboard-option$$
+  - '2'
   - $$mdi:apple-keyboard-control$$
+  - Symb
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
+  - $$mdi:apple-keyboard-control$$
   - {t: '-', s: _}
   - {t: '=', s: +}
   Symb:
@@ -89,15 +89,15 @@ layers:
   - '~'
   - (
   - )
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '|'
-  - {type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '>'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
+  - Switch
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&accent_ae'
+  - '&accent_oe'
+  - '&accent_ue'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Gui+-, s: Gui+_}
   - {t: '-', s: _}
   - '{'
@@ -109,24 +109,24 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Gui+=, s: Gui++}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&accent_ae'
-  - '&accent_oe'
-  - '&accent_ue'
+  - {t: '`', s: '~'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Switch
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:mouse-left-click-outline$$
-  - '&pause_yt'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+F
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
   - +
@@ -185,14 +185,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Switch:
