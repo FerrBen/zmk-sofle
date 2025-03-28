@@ -80,10 +80,10 @@ layers:
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Q
+  - '&accent_ae'
+  - '&accent_oe'
+  - '&accent_ue'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:brightness-7$$
   - '~'
@@ -94,9 +94,9 @@ layers:
   - '|'
   - Switch
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&accent_ae'
-  - '&accent_oe'
-  - '&accent_ue'
+  - Ctl+S
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+F
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Gui+-, s: Gui+_}
   - {t: '-', s: _}
