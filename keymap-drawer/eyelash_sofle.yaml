@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
   - {t: '=', s: +}
   Symb:
@@ -81,28 +81,28 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Q
-  - '&accent_ae'
-  - '&accent_oe'
-  - '&accent_ue'
+  - Gui+W
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+R
   - Gui+T
   - $$mdi:brightness-7$$
   - '~'
   - (
   - )
-  - <
-  - '>'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '|'
   - Switch
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+S
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+F
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
   - {t: Gui+-, s: Gui+_}
   - {t: '-', s: _}
   - '{'
   - '}'
-  - )
+  - {t: '`', s: '~'}
   - ':'
   - '"'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -113,9 +113,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Gui+=, s: Gui++}
   - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - <
+  - '>'
   - '?'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+F
   - ':'
-  - Ctl+Y
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
   - +
