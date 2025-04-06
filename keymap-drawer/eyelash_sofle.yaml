@@ -60,8 +60,8 @@ layers:
   - Symb
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RETURN
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-command$$
   - {t: '-', s: _}
   - {t: '=', s: +}
