@@ -93,7 +93,7 @@ layers:
   - {t: ']', s: '}'}
   - '|'
   - {type: held}
-  - {t: A, h: Alt+U}
+  - '&accent_ae'
   - Ctl+S
   - Switch
   - Ctl+F
@@ -106,8 +106,8 @@ layers:
   - ':'
   - '"'
   - '&pause_yt'
-  - {t: O, h: Alt+U}
-  - {t: U, h: Alt+U}
+  - '&accent_oe'
+  - '&accent_ue'
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
