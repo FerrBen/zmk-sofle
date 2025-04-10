@@ -50,7 +50,7 @@
         pause_yt: pause_yt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(NUMBER_6) &kp LA(K) &kp SPACE &kp LA(TAB)>;
+            bindings = <&kp LA(NUMBER_1) &kp LA(K) &kp SPACE &kp LA(TAB)>;
             label = "PAUSE_YT";
         };
 
@@ -89,8 +89,8 @@
             bindings = <
 &kp CAPS    &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT      &kp C_BRIGHTNESS_INC  &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
 &none       &kp LC(Q)        &kp LG(W)    &mo 2      &kp LG(R)   &kp LG(T)        &kp C_BRIGHTNESS_DEC  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
-&trans      &mt LA(U) A      &kp LC(S)    &mo 3      &kp LC(F)   &kp EQUAL        &kp LG(MINUS)         &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE             &kp COLON              &kp DOUBLE_QUOTES
-&pause_yt   &mt LA(U) O      &mt LA(U) U  &kp LG(C)  &kp LG(V)   &none            &kp LG(EQUAL)         &kp EQUAL  &none                 &kp LESS_THAN          &kp GREATER_THAN      &kp QUESTION           &none
+&trans      &accent_ae       &kp LC(S)    &mo 3      &kp LC(F)   &kp EQUAL        &kp LG(MINUS)         &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE             &kp COLON              &kp DOUBLE_QUOTES
+&pause_yt   &accent_oe       &accent_ue   &kp LG(C)  &kp LG(V)   &none            &kp LG(EQUAL)         &kp EQUAL  &none                 &kp LESS_THAN          &kp GREATER_THAN      &kp QUESTION           &none
 &kp C_MUTE  &none            &none        &none      &pause_yt   &kp LG(SPACE)    &kp LC(F)             &kp COLON  &kp LEFT_SHIFT        &none                  &kp UNDER             &kp PLUS
             >;
 
