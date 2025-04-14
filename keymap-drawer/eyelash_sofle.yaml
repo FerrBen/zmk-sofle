@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - '2'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '1':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -72,20 +72,20 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: C, h: Ctl+F}
+  - C
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+F
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - {t: '&', h: Ctl+F}
+  - '&'
   - ^
   - '&'
   - '*'
@@ -98,7 +98,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: P, h: Ctl+F}
+  - P
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '`', s: '~'}
@@ -111,7 +111,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: N, h: Ctl+F}
+  - N
   - _
   - +
   - '~'
