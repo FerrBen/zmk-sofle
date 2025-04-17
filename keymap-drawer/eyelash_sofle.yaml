@@ -105,7 +105,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '|'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&pause_yt'
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -125,9 +125,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+F
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - '&pause_yt'
   - {t: Gui+-, s: Gui+_}
   - {t: Gui+=, s: Gui++}
   '2':
