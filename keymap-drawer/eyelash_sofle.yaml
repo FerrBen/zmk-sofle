@@ -67,10 +67,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '1':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '?'
+  - ':'
+  - {t: '''', s: '"'}
+  - '"'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - C
   - {t: '$$mdi:minus-circle-outline$$', type: none}
