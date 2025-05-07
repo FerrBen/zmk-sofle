@@ -64,59 +64,59 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&pause_yt'
   '1':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '?'
-  - ':'
-  - {t: '''', s: '"'}
-  - '"'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - C
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+F
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - '&'
+  - C
   - ^
   - '&'
   - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+F
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '[', s: '{'}
+  - {t: '''', s: '"'}
+  - '{'
   - (
+  - '&'
   - )
+  - '}'
+  - $$mdi:arrow-up-bold$$
+  - {t: ']', s: '}'}
+  - '&accent_ae'
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '"'
+  - {t: '=', s: +}
+  - +
   - P
   - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '`', s: '~'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - '&accent_oe'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&pause_yt'
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - _
-  - +
+  - {t: '`', s: '~'}
   - '~'
-  - '{'
-  - '}'
+  - '?'
+  - '&accent_ue'
   - '"'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
