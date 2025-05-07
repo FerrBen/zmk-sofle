@@ -72,7 +72,7 @@
 
         layer0 {
             bindings = <
-&kp ESC         &kp N1    &kp N2            &kp N3            &kp N4  &kp N5       &kp UP_ARROW     &kp N6         &kp N7     &kp N8     &kp N9   &kp N0     &kp DELETE
+&kp ESC         &kp N1    &kp N2            &kp N3            &kp N4  &kp N5       &kp UP_ARROW     &kp N6         &kp N7     &kp N8     &kp N9   &kp N0     &kp ESCAPE
 &kp TAB         &kp Q     &kp W             &kp E             &kp R   &kp T        &kp DOWN_ARROW   &kp Y          &kp U      &kp I      &kp O    &kp P      &kp BACKSLASH
 &kp LEFT_SHIFT  &kp A     &kp S             &kp D             &kp F   &kp G        &kp LEFT_ARROW   &kp H          &kp J      &kp K      &kp L    &kp SEMI   &kp SINGLE_QUOTE
 &kp LEFT_ALT    &kp Z     &kp X             &kp C             &kp V   &kp B        &kp RIGHT_ARROW  &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH   &kp RIGHT_CONTROL
@@ -85,21 +85,21 @@
 
         layer_1 {
             bindings = <
-&none      &kp EXCL  &kp AT            &kp HASH           &kp DOLLAR      &kp PERCENT             &kp C          &kp CARET              &kp AMPERSAND    &kp ASTERISK    &none              &none          &none
-&kp LC(F)  &none     &kp LEFT_BRACKET  &kp SINGLE_QUOTE   &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp AMPERSAND  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp UP_ARROW    &kp RIGHT_BRACKET  &accent_ae     &kp PIPE
-&trans     &none     &none             &kp DOUBLE_QUOTES  &kp EQUAL       &kp PLUS                &kp P          &kp MINUS              &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &accent_oe     &trans
-&pause_yt  &none     &none             &none              &none           &none                   &kp N          &kp UNDERSCORE         &kp GRAVE        &kp TILDE       &kp QUESTION       &accent_ue     &kp DOUBLE_QUOTES
-&none      &none     &none             &mo 3              &none           &none                   &kp LC(F)      &trans                 &kp LG(C)        &kp LG(V)       &kp LG(MINUS)      &kp LG(EQUAL)
+&none      &kp EXCL   &kp AT            &kp HASH           &kp DOLLAR      &kp PERCENT             &kp C          &kp CARET              &kp AMPERSAND    &kp ASTERISK    &none              &none          &none
+&none      &none      &kp LEFT_BRACKET  &kp SINGLE_QUOTE   &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp AMPERSAND  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp UP_ARROW    &kp RIGHT_BRACKET  &accent_ae     &kp PIPE
+&trans     &kp LC(F)  &none             &kp DOUBLE_QUOTES  &kp EQUAL       &kp PLUS                &kp P          &kp MINUS              &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &accent_oe     &trans
+&pause_yt  &none      &none             &none              &none           &none                   &kp N          &kp UNDERSCORE         &kp GRAVE        &kp TILDE       &kp QUESTION       &accent_ue     &kp DOUBLE_QUOTES
+&none      &none      &none             &mo 3              &none           &none                   &kp LC(F)      &trans                 &kp LG(C)        &kp LG(V)       &kp LG(MINUS)      &kp LG(EQUAL)
             >;
         };
 
         layer_2 {
             bindings = <
-&kp F1  &kp F2      &kp F3  &kp F4  &kp F5  &kp F6    &none  &kp F7          &kp F8          &kp F9        &kp F10          &kp F11  &kp F12
-&none   &none       &none   &none   &none   &none     &none  &none           &accent_ue      &none         &accent_oe       &none    &none
-&none   &accent_ae  &none   &none   &none   &none     &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none    &none
-&none   &none       &none   &none   &none   &none     &none  &none           &none           &none         &none            &none    &none
-&none   &none       &none   &none   &mo 3   &none     &none  &none           &none           &none         &none            &none
+&kp F1  &kp F2            &kp F3            &kp F4            &kp F5            &kp F6        &none  &kp F7            &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
+&none   &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)    &none  &kp LA(NUMBER_6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)  &none
+&none   &none             &none             &none             &none             &none         &none  &none             &none       &none       &none       &none       &none
+&none   &none             &none             &none             &none             &none         &none  &none             &none       &none       &none       &none       &none
+&none   &none             &none             &none             &mo 3             &none         &none  &none             &none       &none       &none       &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
