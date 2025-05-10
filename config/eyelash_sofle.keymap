@@ -72,11 +72,11 @@
 
         layer0 {
             bindings = <
-&pause_yt     &kp EXCL  &kp QMARK         &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &mo 2  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp TILDE  &kp GRAVE  &kp DEL
-&kp TAB       &kp Q     &kp W             &kp E             &kp R                 &kp T               &mo 2  &kp Y              &kp U                  &kp I              &kp O      &kp P      &kp BACKSLASH
-&kp ESCAPE    &kp A     &kp S             &kp D             &kp F                 &kp G               &mo 2  &kp H              &kp J                  &kp K              &kp L      &kp SEMI   &kp SINGLE_QUOTE
-&kp LEFT_ALT  &kp Z     &kp X             &kp C             &kp V                 &kp B               &mo 2  &kp N              &kp M                  &kp COMMA          &kp DOT    &kp FSLH   &kp TILDE
-&kp C_MUTE    &kp CLCK  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT        &lt 1 ENTER         &mo 2  &kp BACKSPACE      &kp SPACE              &kp RIGHT_CONTROL  &kp MINUS  &kp EQUAL
+&pause_yt     &kp EXCL  &kp QMARK         &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &kp UP_ARROW     &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp TILDE  &kp GRAVE  &kp DEL
+&kp TAB       &kp Q     &kp W             &kp E             &kp R                 &kp T               &kp DOWN_ARROW   &kp Y              &kp U                  &kp I              &kp O      &kp P      &kp BACKSLASH
+&kp ESCAPE    &kp A     &kp S             &kp D             &kp F                 &kp G               &kp LEFT_ARROW   &kp H              &kp J                  &kp K              &kp L      &kp SEMI   &kp SINGLE_QUOTE
+&kp LEFT_ALT  &kp Z     &kp X             &kp C             &kp V                 &kp B               &kp RIGHT_ARROW  &kp N              &kp M                  &kp COMMA          &kp DOT    &kp FSLH   &kp TILDE
+&kp C_MUTE    &kp CLCK  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT        &lt 1 ENTER         &mo 2            &kp BACKSPACE      &kp SPACE              &kp RIGHT_CONTROL  &kp MINUS  &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
